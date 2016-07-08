@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MultiPaneFragment</string>
+    <string name="main">Main</string>
+    <string name="insidepanel">InSidePanel</string>
+</resources>

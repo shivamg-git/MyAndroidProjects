@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="com.example.spider007.trsvisapp.BackgroundSet">
+
+    <ImageView
+        android:id="@+id/ivShowImage"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:src="@drawable/logo"
+        />
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:id="@+id/ibTakeImage"
+        android:src="@mipmap/ic_launcher"
+        android:layout_weight="80"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_weight="20"
+        android:id="@+id/bSetBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Background"
+        />
+
+</LinearLayout>
+
+</LinearLayout>

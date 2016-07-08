@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Love Android</string>
+
+    <string name="lyrics">hey i m bee , killer bee fool,yo fool! \n
+                            my friend is naruto fool! ,yo fool\n
+                            i love rapping yeeeh!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hide">Hide! lyrics</string>
+    <string name="show">Show! lyrics</string>
+</resources>

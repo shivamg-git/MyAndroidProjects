@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context="com.example.spider007.trsvisapp.TextPlay">
+
+    <EditText
+        android:id="@+id/etCommand"
+        android:password="true"
+        android:textSize="30sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="type a command" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <Button
+            android:id="@+id/bCommand"
+            android:layout_width="fill_parent"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="Try Command!" />
+
+        <ToggleButton
+            android:id="@+id/tbpass"
+            android:checked="true"
+            android:layout_width="fill_parent"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="80" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvout"
+        android:textSize="30sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

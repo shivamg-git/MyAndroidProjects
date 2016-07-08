@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Download</string>
+    <string name="downloaded_text_will_be_here">Downloaded Text Will be here...</string>
+    <string name="start">Start</string>
+</resources>

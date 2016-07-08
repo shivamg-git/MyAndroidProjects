@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FragmentSimple</string>
+    <string name="in_potrate_mode">In Potrate mode</string>
+    <string name="in_landscape_mode">In Landscape Mode</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Derek2</string>
+    <string name="search">Search</string>
+    <string name="cloud">Cloud</string>
+    <string name="setting">Setting</string>
+    <string name="exit">exit</string>
+    <string name="go_get_the_name">Go Get the name...</string>
+    <string name="go">Go</string>
+    <string name="your_name_is">Your Name is ...</string>
+    <string name="your_name">Your Name</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+</resources>

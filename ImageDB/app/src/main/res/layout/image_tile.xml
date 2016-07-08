@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingRight="2dp"
+    android:paddingLeft="2dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="@string/galleryImage"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:id="@+id/gradient"
+        android:layout_width="match_parent"
+        android:background="@drawable/background_linear_layout"
+        android:layout_height="300dp" />
+
+    <Button
+        android:id="@+id/del"
+        android:background="@android:color/transparent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/delete"
+        android:gravity="end|center"
+        android:paddingEnd="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        tools:ignore="RtlCompat,RtlHardcoded,RtlSymmetry" />
+</FrameLayout>

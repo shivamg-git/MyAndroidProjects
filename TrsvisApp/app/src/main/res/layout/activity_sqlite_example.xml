@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.spider007.trsvisapp.SQLiteExample">
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etHotness"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hotness 1 to 10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bSUpdateInSql"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Entry In SQL" />
+
+    <Button
+        android:id="@+id/bView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="4sp"
+        android:layout_marginBottom="20dp"
+        android:background="#555" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="RowId" />
+
+    <EditText
+        android:id="@+id/etRowId"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bGetInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="getInfo" />
+
+        <Button
+            android:id="@+id/bEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Edit" />
+
+        <Button
+            android:id="@+id/bDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+
+    </LinearLayout>
+</LinearLayout>

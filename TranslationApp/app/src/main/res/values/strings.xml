@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TranslationApp</string>
+    <string name="enter_text_to_be_converted">Enter text to be Converted.</string>
+    <string name="transtated_data_here">Transtated data here</string>
+    <string name="translate">Translate</string>
+    <string name="translated_text_here">Translated Text Here</string>
+    <string name="type_here_to_convert">Type Here to convert ...</string>
+    <string name="translate1">Translate</string>
+</resources>

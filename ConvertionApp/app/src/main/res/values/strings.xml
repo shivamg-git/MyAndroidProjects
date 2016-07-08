@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ConvertionApp</string>
+    <string name="convert_from">Convert From</string>
+    <string name="_1_0">1.0</string>
+    <string name="default_teaspoon">1.0 teaspoon</string>
+    <string name="default_cup">.0208 cup</string>
+    <string-array name="conversion_types">
+        <item>teaspoon</item>
+        <item>tablespoon</item>
+        <item>cup</item>
+        <item>ounce</item>
+        <item>pint</item>
+        <item>quart</item>
+        <item>gallon</item>
+        <item>pound</item>
+        <item>milliliter</item>
+        <item>liter</item>
+        <item>milligram</item>
+        <item>kilogram</item>
+    </string-array>
+</resources>

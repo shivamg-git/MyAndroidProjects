@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ImageDB</string>
+    <string name="image_selected">Image Selected</string>
+    <string name="select">Select</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="galleryImage">GalleryImage</string>
+    <string name="delete">X</string>
+</resources>

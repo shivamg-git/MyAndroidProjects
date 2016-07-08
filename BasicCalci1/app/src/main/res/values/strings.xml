@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Basic Calculator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="input1_placeholder">Input 1</string>
+    <string name="input2_placeholder">Input 2</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="div">/</string>
+</resources>
