@@ -9,8 +9,106 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.spider.dbdemo.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/createDBButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="createDatabase"
+        android:text="@string/create_database" />
+
+    <Button
+        android:id="@+id/addContactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/createDBButton"
+        android:layout_toRightOf="@+id/createDBButton"
+        android:clickable="false"
+        android:onClick="addContact"
+        android:text="@string/add_contact"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/deleteContactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/createDBButton"
+        android:clickable="false"
+        android:onClick="deleteContact"
+        android:text="@string/delete_contact" />
+
+    <Button
+        android:id="@+id/getContactsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createDBButton"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/deleteContactButton"
+        android:layout_toRightOf="@+id/deleteContactButton"
+        android:clickable="false"
+        android:onClick="getContacts"
+        android:text="@string/get_contacts"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/deleteContactButton"
+        android:layout_marginTop="5dp"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nameEditText"
+        android:layout_marginTop="5dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/idEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/emailEditText"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/id_to_delete"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/deleteDBButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/idEditText"
+        android:clickable="false"
+        android:onClick="deleteDatabase"
+        android:text="@string/delete_database" />
+
+    <EditText
+        android:id="@+id/contactListEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="8" />
+
 </RelativeLayout>
